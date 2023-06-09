@@ -1,7 +1,7 @@
 #The current example is a Wifi Client on a pysense 2.0 board with a fipy adapter to support wifi connections
 #Notice that the following features
 #1. Given a wifi configuration the device will go straight to conect it.
-#2. the mission of this device is to measure the ambient light levels by the LTR329ALS01 driver 
+#2. The mission of this device is to measure the ambient light levels by the LTR329ALS01 driver 
 # by means of a sensor on the pysense 2.0 board
 #3. The captured data is being sent to UDP server which is listening on the port "IP.IP.IP.IP".49999
 #which can be changed obviously.
