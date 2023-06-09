@@ -1,4 +1,4 @@
-#the current example is a Wifi Client on a pysense 2.0 board with a fipy adapter to support wifi connections
+#The current example is a Wifi Client on a pysense 2.0 board with a fipy adapter to support wifi connections
 #Notice that the following features
 #1. Given a wifi configuration the device will go straight to conect it.
 #2. the mission of this device is to measure the ambient light levels by the LTR329ALS01 driver 
