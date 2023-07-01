@@ -59,6 +59,7 @@ while True:
         
         #using the ouptut provided by wlan.scan method to search the prefered wifi network
         if net[0].decode() == ssid:
+            #Reporting a message after matching the ssid
             print('Network found!')
             wlan.active(True)
             #As a best practice, it is effective to give some time before trying to engage upon the current 
