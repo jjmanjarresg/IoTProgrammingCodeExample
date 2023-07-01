@@ -7,7 +7,8 @@
 #4. It seems that there is discontinuity in Timer Module support on Raspberry Pi Pico series. 
 #Consequently, it was not possible to set a deep sleep feature in order to save energy. 
 #This issue is still on research.
-
+#5. It was used the rp2-pico-w-20230426-v1.20.0.uf2 as firmware for the device which is available on
+#micropython website
 #Loading required libraries
 import machine
 from machine import Timer
